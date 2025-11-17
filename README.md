@@ -98,6 +98,28 @@ A comprehensive full-stack web application for managing and visualizing railway 
 
 ### Installation
 
+#### Windows Users (Easy Setup)
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd railway-asset-manager
+```
+
+2. **First-time setup** - Double-click `setup.bat`
+   - Checks Node.js installation
+   - Installs all dependencies
+
+3. **Run development server** - Double-click `run.bat`
+   - Starts the app at http://localhost:5173
+   - Auto-installs dependencies if needed
+
+4. **Build for production** - Double-click `build.bat`
+   - Creates optimized production build
+   - Previews at http://localhost:4173
+
+#### Manual Installation (All Platforms)
+
 1. Clone the repository:
 ```bash
 git clone <repository-url>
