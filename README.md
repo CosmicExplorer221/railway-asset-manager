@@ -98,15 +98,46 @@ A comprehensive full-stack web application for managing and visualizing railway 
 
 ### Installation
 
-#### Windows Users (Easy Setup)
+> **⚠️ IMPORTANT:** The code is on the development branch `claude/railway-asset-manager-01YXJiJmDZGHUuaUgyLVWh1d`, not on main!
+
+#### Quick Setup (Recommended)
+
+**Clone and setup automatically:**
+```bash
+git clone https://github.com/CosmicExplorer221/railway-asset-manager.git
+cd railway-asset-manager
+git checkout claude/railway-asset-manager-01YXJiJmDZGHUuaUgyLVWh1d
+```
+
+**For Windows:** Then double-click `quick-setup.bat` (automatically moves code to main branch and installs dependencies)
+
+**Manual setup:**
+```bash
+# Move to main branch (optional but recommended)
+git checkout -b main
+git branch -D claude/railway-asset-manager-01YXJiJmDZGHUuaUgyLVWh1d
+
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
+```
+
+---
+
+#### Windows Users (Step-by-Step)
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/CosmicExplorer221/railway-asset-manager.git
 cd railway-asset-manager
+git checkout claude/railway-asset-manager-01YXJiJmDZGHUuaUgyLVWh1d
 ```
 
-2. **First-time setup** - Double-click `setup.bat`
+2. **Quick setup** - Double-click `quick-setup.bat` (moves to main + installs dependencies)
+   OR
+   **Manual setup** - Double-click `setup.bat`
    - Checks Node.js installation
    - Installs all dependencies
 
